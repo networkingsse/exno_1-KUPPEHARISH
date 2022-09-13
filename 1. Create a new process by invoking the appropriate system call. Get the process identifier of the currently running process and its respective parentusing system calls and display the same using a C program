@@ -15,11 +15,8 @@ error("can’ texecutecat%s,",ar[1]);
 else
 {
 printf("\nChildprocess:");
-printf("\n\tChildprocessparentid:\t%d"
-,getppid());
-printf(s,
-"\n\tChildprocessid:\t%d"
-,getpid());
+printf("\n\tChildprocessparentid:\t%d",getppid());
+printf(s,"\n\tChildprocessid:\t%d",getpid());
 write(1,s,strlen(s));
 printf("");
 printf("");
